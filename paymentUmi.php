@@ -1,7 +1,7 @@
 <?php
-
 namespace Lermos\UMI\payment
 
+	
 	abstract class payment extends umiObjectProxy {
 
 		protected $order;
@@ -147,4 +147,3 @@ namespace Lermos\UMI\payment
 		abstract function poll();
 
 	};
-?>
